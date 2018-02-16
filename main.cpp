@@ -9,10 +9,10 @@ int main()
 string first, last; //declare variables
 
 
-cout << "what is your first name?\n";
+cout << "What is your first name?\n";
 
 cin >> first;  //get user input
-cout << "what is your last name?\n";
+cout << "What is your last name?\n";
 cin >> last; 
 
 cout << "Welcome, " <<first[0]<<"."<<last[0]<<"." ", here is your fortune...\n";
@@ -30,7 +30,7 @@ if (first[0] == 'a'|| first[0] == 'e'|| first[0] == 'i' || first[0] == 'o'|| fir
 
 else
 
-{cout << "you should keep a low profile\n";}
+{cout << "you should keep a low profile.\n";}
 
 
 int len = last.length();
